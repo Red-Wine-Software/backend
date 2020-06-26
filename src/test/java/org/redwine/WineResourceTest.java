@@ -1,4 +1,4 @@
-package org.rewine;
+package org.redwine;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
@@ -10,12 +10,12 @@ import static org.hamcrest.CoreMatchers.is;
 public class WineResourceTest {
 
     @Test
-    public void testHelloEndpoint() {
+    public void testWelcomeEndpoint() {
         given()
-          .when().get("/hello")
+          .when().get("/redwine/backend")
           .then()
              .statusCode(200)
-             .body(is("hello"));
+             .body(is("Welcome to Red Wine"));
     }
 
 }

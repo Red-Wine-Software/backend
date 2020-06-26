@@ -1,4 +1,4 @@
-package org.rewine;
+package org.redwine;
 
 import java.util.List;
 import javax.ws.rs.GET;
@@ -8,13 +8,13 @@ import javax.ws.rs.core.MediaType;
 
 import io.quarkus.panache.common.Sort;
 
-@Path("/rewine/backend")
+@Path("/redwine/backend")
 public class WineResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String hello() {
-        return "Hello Chris, how are you? Do you like wine?";
+    public String welcome() {
+        return "Welcome to Red Wine";
     }
 
     @GET

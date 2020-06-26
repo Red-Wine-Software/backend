@@ -1,0 +1,11 @@
+INSERT INTO WINE(wineId,name,origin)VALUES('wine1','Chateau Pontet Barrail 2012 Medoc','France');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine2','Chateau Fonbadet 2011 Pauillac','France');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine3','Abarbanel Special Reserve Rouge 2016','France');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine4','Winemaker''s Selection Un Double Cabernet Franc 2017','France');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine5','Maison Roche de Bellene, Vieilles Vignes Pinot Noir 2014 Bourgogne','France');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine6','Luce Della Vite Lucente','Italy');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine7','Castello di Monsanto Chianti Classico Riserva 2010','Italy');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine8','Damilano Barolo Cannubi 2010','Italy');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine9','Frescobaldi Castiglioni Chianti','Italy');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine10','Beni di Batasiolo Barbaresco','Italy');
+INSERT INTO WINE(wineId,name,origin)VALUES('wine11','Beringer California Cabernet Sauvignon 2012','USA');
