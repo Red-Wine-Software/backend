@@ -1,5 +1,5 @@
 metadata:
-  name: redwine-backend
+  name: redwine-backendf1tq8
 projects:
   - name: redwine-backend
     source:
@@ -35,35 +35,6 @@ components:
     type: chePlugin
 apiVersion: 1.0.0
 commands:
-  - name: Workspace tasks
-    actions:
-      - referenceContent: |
-          {   
-              "version": "2.0.0",
-              "tasks": [
-                  {
-                      "type": "che",
-                      "label": "Package",
-                      "command": "mvn package",
-                      "target": {
-                          "workingDir": "${CHE_PROJECTS_ROOT}/redwine-backend",
-                          "component": "maven"
-                      },
-                      "problemMatcher": []
-                  },
-                  {
-                      "type": "che",
-                      "label": "Start in Devmode (hot deploy + debug)",
-                      "command": "mvn compile quarkus:dev",
-                      "target": {
-                          "workingDir": "${CHE_PROJECTS_ROOT}/redwine-backend",
-                          "component": "maven"
-                      },
-                      "problemMatcher": []
-                  }
-              ]
-          }
-        type: vscode-launch
   - name: Attach remote debugger
     actions:
       - referenceContent: |
@@ -80,3 +51,31 @@ commands:
             ]
           }
         type: vscode-launch
+  - name: Configure tasks
+    actions:
+      - referenceContent: |
+          {
+            "tasks": [
+              {
+                  "type": "che",
+                  "label": "Package",
+                  "command": "mvn package",
+                  "target": {
+                      "workingDir": "${CHE_PROJECTS_ROOT}/redwine-backend",
+                      "component": "maven"
+                  },
+                  "problemMatcher": []
+              },
+              {
+                  "type": "che",
+                  "label": "Start in Devmode (hot deploy + debug)",
+                  "command": "mvn compile quarkus:dev",
+                  "target": {
+                      "workingDir": "${CHE_PROJECTS_ROOT}/redwine-backend",
+                      "component": "maven"
+                  },
+                  "problemMatcher": []
+              }
+            ]
+          }
+        type: vscode-task
