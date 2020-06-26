@@ -1,4 +1,4 @@
-package org.redwine;
+package org.redwine.rewine;
 
 import java.util.List;
 import javax.ws.rs.GET;
@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 
 import io.quarkus.panache.common.Sort;
 
-@Path("/redwine/backend")
+@Path("/rewine/backend")
 public class WineResource {
 
     @GET

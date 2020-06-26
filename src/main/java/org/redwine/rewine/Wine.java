@@ -1,4 +1,4 @@
-package org.redwine;
+package org.redwine.rewine;
 
 import java.io.Serializable;
 

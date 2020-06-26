@@ -1,4 +1,4 @@
-package org.redwine;
+package org.redwine.rewine;
 
 import io.quarkus.test.junit.NativeImageTest;
 

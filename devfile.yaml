@@ -1,7 +1,7 @@
 metadata:
-  name: redwine-backendf1tq8
+  name: rewine-backend
 projects:
-  - name: redwine-backend
+  - name: rewine-backend
     source:
       location: 'https://github.com/Red-Wine-Software/backend.git'
       type: git
@@ -61,7 +61,7 @@ commands:
                   "label": "Package",
                   "command": "mvn package",
                   "target": {
-                      "workingDir": "${CHE_PROJECTS_ROOT}/redwine-backend",
+                      "workingDir": "${CHE_PROJECTS_ROOT}/rewine-backend",
                       "component": "maven"
                   },
                   "problemMatcher": []
@@ -71,7 +71,7 @@ commands:
                   "label": "Start in Devmode (hot deploy + debug)",
                   "command": "mvn compile quarkus:dev",
                   "target": {
-                      "workingDir": "${CHE_PROJECTS_ROOT}/redwine-backend",
+                      "workingDir": "${CHE_PROJECTS_ROOT}/rewine-backend",
                       "component": "maven"
                   },
                   "problemMatcher": []
