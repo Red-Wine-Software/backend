@@ -58,6 +58,16 @@ commands:
             "tasks": [
               {
                   "type": "che",
+                  "label": "Code",
+                  "command": "cp -R .solutions/src .",
+                  "target": {
+                      "workingDir": "${CHE_PROJECTS_ROOT}/rewine-backend",
+                      "component": "maven"
+                  },
+                  "problemMatcher": []
+              },
+              {
+                  "type": "che",
                   "label": "Package",
                   "command": "mvn package",
                   "target": {
