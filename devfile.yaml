@@ -31,8 +31,6 @@ components:
         name: JAVA_OPTS
       - value: $(JAVA_OPTS)
         name: MAVEN_OPTS
-  - id: redhat/vscode-openshift-connector/latest
-    type: chePlugin
 apiVersion: 1.0.0
 commands:
   - name: Attach remote debugger
