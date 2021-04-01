@@ -77,7 +77,7 @@ commands:
               {
                   "type": "che",
                   "label": "Start in Devmode (hot deploy + debug)",
-                  "command": "mvn compile quarkus:dev",
+                  "command": "mvn compile quarkus:dev -Ddebug=false",
                   "target": {
                       "workingDir": "${CHE_PROJECTS_ROOT}/rewine-backend",
                       "component": "maven"
