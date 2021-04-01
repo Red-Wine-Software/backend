@@ -27,6 +27,9 @@ public class Wine extends PanacheEntityBase implements Serializable {
     @Column
     private String origin;
 
+    @Column
+    private String imageURL;
+
     public String getWineId() {
         return wineId;
     }
