@@ -26,7 +26,7 @@ public class Wine extends PanacheEntityBase implements Serializable {
 
     @Column
     private String origin;
-	
+
     public String getWineId() {
         return wineId;
     }
@@ -43,10 +43,19 @@ public class Wine extends PanacheEntityBase implements Serializable {
         this.name = name;
     }
 
+    public String getOrigin() {
+        return origin;
+    }
+
+    public void setOrigin(String origin) {
+        this.origin = origin;
+    }
+
     @Override
     public String toString() {
         return "Wine [wineId='" + wineId 
                     + '\'' + ", name=" + name
+                    + '\'' + ", origin=" + origin
                     + ']';
     }
 }

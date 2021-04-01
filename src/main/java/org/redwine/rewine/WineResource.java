@@ -21,6 +21,6 @@ public class WineResource {
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/wines")
     public List<Wine> getAll() {
-        return Wine.listAll();
+        return Wine.listAll(Sort.by("origin"));
     }
 }
