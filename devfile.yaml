@@ -13,7 +13,7 @@ components:
     endpoints:
       - name: quarkus-development-server
         port: 8080
-    memoryLimit: 512Mi
+    memoryLimit: 2Gi
     type: dockerimage
     volumes:
       - name: m2
