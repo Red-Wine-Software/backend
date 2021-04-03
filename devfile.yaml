@@ -5,7 +5,7 @@ projects:
     source:
       location: 'https://github.com/Red-Wine-Software/backend.git'
       type: git
-      branch: master
+      branch: summit2021
 components:
   - id: redhat/quarkus-java11/latest
     type: chePlugin
@@ -13,7 +13,7 @@ components:
     endpoints:
       - name: quarkus-development-server
         port: 8080
-    memoryLimit: 512Mi
+    memoryLimit: 2Gi
     type: dockerimage
     volumes:
       - name: m2
