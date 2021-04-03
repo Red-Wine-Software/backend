@@ -54,11 +54,20 @@ public class Wine extends PanacheEntityBase implements Serializable {
         this.origin = origin;
     }
 
+    public String getImageURL() {
+        return imageURL;
+    }
+
+    public void setImageURL(String imageURL) {
+        this.imageURL = imageURL;
+    }
+
     @Override
     public String toString() {
         return "Wine [wineId='" + wineId 
                     + '\'' + ", name=" + name
                     + '\'' + ", origin=" + origin
+                    + '\'' + ", imageURL=" + imageURL
                     + ']';
     }
 }
