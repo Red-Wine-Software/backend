@@ -6,7 +6,7 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 
 ## Developer Workspace
 
-[![Contribute](https://raw.githubusercontent.com/mcouliba/cloud-native-workshop/demo/factory-contribute.svg)](https://codeready-workspaces.apps.cluster-nantes-3dd7.nantes-3dd7.example.opentlc.com/factory?url=https://github.com/Red-Wine-Software/backend/)
+[![Contribute](https://raw.githubusercontent.com/mcouliba/cloud-native-workshop/demo/factory-contribute.svg)](https://codeready-openshift-workspaces.apps.axa.w6gk.p1.openshiftapps.com/factory?url=https://github.com/Red-Wine-Software/backend/)
 
 ## Running the application in dev mode
 
